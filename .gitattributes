@@ -1,0 +1,58 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.rar binary
+*.dll binary
+*.exe binary
+
+# Denote all files that are known to be ASCII but should be treated as binary.
+*.cs binary
+*.csproj binary
+*.sln binary
+*.json binary
+*.xml binary
+*.html binary
+*.css binary
+*.js binary
+*.ts binary
+
+# Ignore Visual Studio temporary files
+.vscode/* -diff
+.vs/* -diff
+*/bin/* -diff
+*/obj/* -diff
+*.suo -diff
+*.user -diff
+*.userosscache -diff
+*.sln.docstates -diff
+
+# Ignore NuGet packages
+*.nupkg binary
+
+# Ignore build output
+[Bb]in/** binary -diff
+[Oo]bj/** binary -diff
+
+# Ignore .NET artifacts
+project.lock.json binary
+artifacts/** binary -diff
+
+# Ignore ReSharper and Rider
+_ReSharper*/** binary
+.idea/** binary
+
+# Ignore Node.js modules
+node_modules/** binary
+
+# Ignore SQLite database files
+*.sqlite3 binary
+
+# Ignore macOS specific files
+.DS_Store binary
