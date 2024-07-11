@@ -116,4 +116,4 @@ public class Program
 
 ## Lisenziya
 
-Bu proyekt MIT lisenziyası ilə lisenziyalanmışdır. Ətraflı məlumat üçün [LICENSE](LICENSE) faylını baxa bilərsiniz.
+Bu proyekt MIT lisenziyası ilə lisenziyalanmışdır. Ətraflı məlumat üçün [LICENSE](LICENSE.txt) faylını baxa bilərsiniz.
